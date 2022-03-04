@@ -21,5 +21,6 @@ Preferred to run in Intellij IDEA environment
 1. Make sure mysql is running <br />
 2. Update mysql username and password accordingly <br />
 3. Create a new schema and use DDL.sql to create a new table <br />
-4. Start Server.java <br />
-5. Start Client.java <br />
+4. Complie the java files <br />
+5. Start Server.java <br />
+6. Start Client.java <br />
