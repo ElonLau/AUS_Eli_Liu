@@ -10,8 +10,8 @@
 
 OVERVIEW
 
-pom.xml: Includes mysql-connector-java and junit dependencies
-DDL.sql: create the table 'robot' and insert the response statements there. The responses can grow organically over time
+pom.xml: Includes mysql-connector-java and junit dependencies<br />
+DDL.sql: create the table 'robot' and insert the response statements there. The responses can grow organically over time<br />
 
 Entity class:
   Constants.java: Includes all the final Strings such as MySQL connection credentials
