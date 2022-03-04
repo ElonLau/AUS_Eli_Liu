@@ -19,7 +19,7 @@ public class Client {
             String line;
             RobotQuery robotQuery = new RobotQuery();
             
-            System.out.println("client start");
+            System.out.println("client starts");
             System.out.println(robotQuery.getRobot(Constants.QUERY_TYPE_INIT, "").question);
 
             while (!(line = br.readLine()).equals("end")) {
