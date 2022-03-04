@@ -25,12 +25,14 @@ public class Server {
                 System.out.println("can not listen to:" + e);
             }
             Socket socket = null;
+            System.out.println("server starts");
 
             try {
                 socket = server.accept(); // accept
             } catch (Exception e) {
                 System.out.println("Error." + e);
             }
+            System.out.println("client accepts");
 
             BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             PrintWriter writer = new PrintWriter(socket.getOutputStream());
