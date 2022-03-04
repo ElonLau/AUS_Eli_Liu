@@ -14,3 +14,12 @@ JDBC class:<br />
   <br />
  Client.java: Declare and initialize a new socket and read in user inputs<br />
  Server.java: Socket server services<br />
+
+INITIALIZATION STEPS:<br />
+Preferred to run in Intellij IDEA environment
+<br />
+1. Make sure mysql is running <br />
+2. Update mysql username and password accordingly <br />
+3. Create a new schema and use DDL.sql to create a new table <br />
+4. Start Server.java <br />
+5. Start Client.java <br />
