@@ -18,6 +18,8 @@ public class Client {
             BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             String line;
             RobotQuery robotQuery = new RobotQuery();
+            
+            System.out.println("client start");
             System.out.println(robotQuery.getRobot(Constants.QUERY_TYPE_INIT, "").question);
 
             while (!(line = br.readLine()).equals("end")) {
